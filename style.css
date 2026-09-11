@@ -1,0 +1,233 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+.section {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.nav-brand {
+    font-weight: 700;
+    font-size: 1.5em;
+    display: flex; /* Added to align image and text */
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Space between logo and text */
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3498db;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #555;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.hero p {
+    font-size: 1.1em;
+    color: #777;
+    max-width: 600px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+
+/* About Me Section */
+.about-me-content {
+    background-color: #f0f0f0; /* Gray background */
+    text-align: center; /* Center-align text */
+    padding: 60px 20px;
+}
+
+.about-me-content .about-subtitle {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Card Grid Layout */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #2c3e50;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+/* Skills Cards - New Ash Color */
+.card.skill-card {
+    background-color: #e9ecef; /* Ash color */
+}
+
+/* Internships/Experience Section */
+.experience-list {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.experience-item h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.experience-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.experience-item li {
+    margin-bottom: 15px;
+    border-left: 3px solid #3498db;
+    padding-left: 15px;
+}
+
+.experience-item li strong {
+    color: #333;
+}
+
+/* Contact Section */
+#contact a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links li a {
+        padding: 5px 10px;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .section {
+        padding: 50px 15px;
+    }
+}
