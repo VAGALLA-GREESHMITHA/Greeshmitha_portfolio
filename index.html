@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greeshmitha Vagalla | Java &amp; Full Stack Developer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Greeshmitha Vagalla, a 2025 B.Tech Computer Science graduate with hands-on Full Stack Development training and skills in Java, SQL, MySQL, HTML, CSS and JavaScript. Based in Bengaluru, Karnataka, India.">
+  <meta name="keywords" content="Greeshmitha Vagalla, Java Developer, Full Stack Developer, 2025 Graduate, Fresher, Portfolio, Software Developer, Bengaluru">
+  <meta name="author" content="Greeshmitha Vagalla">
+
+  <!-- Open Graph / Social Sharing Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vagalla-greeshmitha.github.io/Greeshmitha_portfolio/">
+  <meta property="og:title" content="Greeshmitha Vagalla | Java &amp; Full Stack Developer">
+  <meta property="og:description" content="2025 B.Tech CSE Graduate with hands-on Full Stack Development training. Exploring entry-level Java and Software Development roles in Bengaluru, Hyderabad, Chennai, Pune.">
+  <meta property="og:image" content="assets/greeshmitha-profile.jpg">
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f172a'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='42' font-weight='bold' fill='%2338bdf8'>GV</text></svg>">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main Navigation">
+      <a href="#home" class="nav__logo" id="nav-logo" aria-label="Greeshmitha Vagalla Home">
+        <span class="logo__badge">GV</span>
+        <span class="logo__text">GREESHMITHA</span>
+      </a>
+
+      <!-- Desktop & Mobile Menu Navigation -->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list" role="menubar">
+          <li class="nav__item" role="none"><a href="#home" class="nav__link active-link" role="menuitem">Home</a></li>
+          <li class="nav__item" role="none"><a href="#about" class="nav__link" role="menuitem">About</a></li>
+          <li class="nav__item" role="none"><a href="#skills" class="nav__link" role="menuitem">Skills</a></li>
+          <li class="nav__item" role="none"><a href="#training" class="nav__link" role="menuitem">Training</a></li>
+          <li class="nav__item" role="none"><a href="#internships" class="nav__link" role="menuitem">Internships</a></li>
+          <li class="nav__item" role="none"><a href="#projects" class="nav__link" role="menuitem">Projects</a></li>
+          <li class="nav__item" role="none"><a href="#education" class="nav__link" role="menuitem">Education</a></li>
+          <li class="nav__item" role="none"><a href="#certifications" class="nav__link" role="menuitem">Certifications</a></li>
+          <li class="nav__item" role="none"><a href="#resume" class="nav__link" role="menuitem">Resume</a></li>
+          <li class="nav__item" role="none"><a href="#contact" class="nav__link" role="menuitem">Contact</a></li>
+        </ul>
+        <button class="nav__close" id="nav-close" aria-label="Close navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="nav__actions">
+        <!-- Theme Toggle Button -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle Light/Dark Theme">
+          <svg class="theme-icon theme-icon--sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="theme-icon theme-icon--moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+
+        <a href="#contact" class="btn btn--header d-none-mobile">Get in Touch</a>
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <div class="hero__badge-wrapper">
+            <span class="status-badge">
+              <span class="status-badge__dot"></span>
+              Open to Opportunities
+            </span>
+          </div>
+          
+          <h1 class="hero__title">
+            Hi, I'm <span class="gradient-text">Greeshmitha Vagalla</span>
+          </h1>
+          <h2 class="hero__subtitle">Java &amp; Full Stack Developer</h2>
+          <p class="hero__tagline">2025 B.Tech CSE Graduate | Fresher | Open to Software Opportunities</p>
+
+          <div class="hero__meta-pill">
+            <span>📍 Bengaluru, Karnataka, India</span>
+            <span class="meta-sep">•</span>
+            <a href="mailto:greeshmithareddyvagalla@gmail.com" class="meta-email-link">✉️ greeshmithareddyvagalla@gmail.com</a>
+          </div>
+
+          <p class="hero__description">
+            "Computer Science graduate with hands-on Full Stack Development training and a strong foundation in Java, SQL, MySQL, HTML, CSS and JavaScript. Receptive to feedback, resilient, adaptable, and an effective team player, with a commitment to disciplined engineering practices."
+          </p>
+
+          <div class="hero__buttons">
+            <a href="#projects" class="btn btn--primary">View My Projects</a>
+            <a href="assets/Greeshmitha_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">View Resume</a>
+            <a href="#contact" class="btn btn--outline">Contact Me</a>
+          </div>
+
+          <div class="hero__socials">
+            <span class="hero__socials-label">Connect with me:</span>
+            <a href="https://github.com/VAGALLA-GREESHMITHA" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/vagalla-greeshmitha-90533428b" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="mailto:greeshmithareddyvagalla@gmail.com" class="social-icon" aria-label="Send Primary Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__image-wrapper">
+          <div class="hero__avatar-frame">
+            <img src="assets/greeshmitha-profile.jpg" alt="Greeshmitha Vagalla" class="hero__avatar-img" width="380" height="380">
+            <div class="hero__avatar-glow"></div>
+            <div class="hero__experience-pill">
+              <span class="pill-dot"></span>
+              <span>2025 B.Tech CSE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Get to Know Me</span>
+          <h2 class="section__title">About Me</h2>
+          <div class="section__divider"></div>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__bio">
+            <p class="about__lead">
+              Hello! I am <strong>Greeshmitha Vagalla</strong>, a 2025 Computer Science and Engineering graduate from <strong>Annamacharya Institute of Technology &amp; Sciences (Autonomous), Tirupati</strong>, currently based in <strong>Bengaluru, Karnataka, India</strong>.
+            </p>
+            <p class="about__text">
+              I have completed comprehensive, hands-on Full Stack Development training along with dedicated internship programs. This journey helped me build a strong foundation in Java, SQL, MySQL, frontend fundamentals (HTML, CSS, JavaScript), and basic Python.
+            </p>
+            <p class="about__growth-box">
+              <span class="quote-mark">“</span>
+              <em>Receptive to feedback, resilient, adaptable, and an effective team player, with a commitment to disciplined engineering practices.</em>
+              <span class="quote-mark">”</span>
+            </p>
+            <p class="about__text">
+              I have a genuine passion for software development and hands-on problem solving. As an entry-level software engineer, I am eager to apply my technical knowledge to real-world applications and continuously learn from experienced mentors and engineering teams.
+            </p>
+
+            <div class="about__meta-row">
+              <div class="about__meta-item">
+                <span class="meta-icon">📍</span>
+                <div>
+                  <span class="meta-label">Current Location</span>
+                  <span class="meta-val">Bengaluru, Karnataka, India</span>
+                </div>
+              </div>
+              <div class="about__meta-item">
+                <span class="meta-icon">✈️</span>
+                <div>
+                  <span class="meta-label">Open to Relocate</span>
+                  <span class="meta-val highlight-accent">Bengaluru, Hyderabad, Chennai, Pune</span>
+                </div>
+              </div>
+              <div class="about__meta-item">
+                <span class="meta-icon">🎓</span>
+                <div>
+                  <span class="meta-label">Education</span>
+                  <span class="meta-val">B.Tech – Computer Science &amp; Engineering (2025)</span>
+                </div>
+              </div>
+              <div class="about__meta-item">
+                <span class="meta-icon">💼</span>
+                <div>
+                  <span class="meta-label">Roles of Interest</span>
+                  <span class="meta-val">Java Developer, Full Stack, Software Engineer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile Summary Card -->
+          <div class="about__card-wrapper">
+            <div class="summary-card">
+              <div class="summary-card__header">
+                <div class="summary-card__title">Profile Summary</div>
+                <span class="summary-card__tag">Recruiter Snapshot</span>
+              </div>
+              <ul class="summary-card__list">
+                <li class="summary-card__item">
+                  <span class="item-label">Education</span>
+                  <span class="item-value">B.Tech CSE – 2025 (9.3 CGPA)</span>
+                </li>
+                <li class="summary-card__item">
+                  <span class="item-label">Experience</span>
+                  <span class="item-value">Fresher (Entry-Level)</span>
+                </li>
+                <li class="summary-card__item">
+                  <span class="item-label">Training</span>
+                  <span class="item-value">Full Stack Dev – KodNest</span>
+                </li>
+                <li class="summary-card__item">
+                  <span class="item-label">Current Location</span>
+                  <span class="item-value">Bengaluru, India</span>
+                </li>
+                <li class="summary-card__item">
+                  <span class="item-label">Relocation</span>
+                  <span class="item-value highlight-status">Bengaluru, Hyderabad, Chennai, Pune</span>
+                </li>
+                <li class="summary-card__item">
+                  <span class="item-label">Availability</span>
+                  <span class="item-value highlight-status">Immediate / Open to Opportunities</span>
+                </li>
+              </ul>
+              <div class="summary-card__action">
+                <a href="#contact" class="btn btn--primary btn--full">Discuss Opportunities</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Technical Competencies</span>
+          <h2 class="section__title">Technical Skills</h2>
+          <div class="section__divider"></div>
+        </div>
+
+        <div class="skills__grid">
+          <!-- Category 1: Programming -->
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <div class="skill-card__icon">💻</div>
+              <h3 class="skill-card__title">Programming</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-tag__name">Java</span>
+                <span class="skill-tag__level level--proficient">Core &amp; OOP</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">Python</span>
+                <span class="skill-tag__level level--basics">Basics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Web Development -->
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <div class="skill-card__icon">🌐</div>
+              <h3 class="skill-card__title">Web Development</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-tag__name">HTML</span>
+                <span class="skill-tag__level level--proficient">Semantic Markup</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">CSS</span>
+                <span class="skill-tag__level level--proficient">Responsive Layouts</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">JavaScript</span>
+                <span class="skill-tag__level level--fundamentals">DOM &amp; Interactivity</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Database -->
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <div class="skill-card__icon">🗄️</div>
+              <h3 class="skill-card__title">Database</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-tag__name">SQL</span>
+                <span class="skill-tag__level level--proficient">Queries &amp; Joins</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">MySQL</span>
+                <span class="skill-tag__level level--proficient">Database Design</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">DBMS</span>
+                <span class="skill-tag__level level--proficient">Architecture</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">RDBMS</span>
+                <span class="skill-tag__level level--proficient">Relational Models</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">CRUD</span>
+                <span class="skill-tag__level level--proficient">Operations</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Java / Development -->
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <div class="skill-card__icon">☕</div>
+              <h3 class="skill-card__title">Java / Development</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-tag__name">OOP</span>
+                <span class="skill-tag__level level--proficient">Object-Oriented Concepts</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">DSA</span>
+                <span class="skill-tag__level level--basics">Basics</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">JDBC</span>
+                <span class="skill-tag__level level--proficient">Database Connectivity</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">Java Servlets</span>
+                <span class="skill-tag__level level--proficient">Server Logic &amp; Sessions</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">Basic J2EE</span>
+                <span class="skill-tag__level level--basics">Enterprise Fundamentals</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">JSP</span>
+                <span class="skill-tag__level level--basics">JavaServer Pages</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 5: Tools -->
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <div class="skill-card__icon">🛠️</div>
+              <h3 class="skill-card__title">Tools &amp; Environments</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-tag__name">Git</span>
+                <span class="skill-tag__level level--fundamentals">Version Control</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">GitHub</span>
+                <span class="skill-tag__level level--fundamentals">Repositories</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">VS Code</span>
+                <span class="skill-tag__level level--proficient">Editor</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">Eclipse</span>
+                <span class="skill-tag__level level--proficient">Java IDE</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">Cursor</span>
+                <span class="skill-tag__level level--fundamentals">Development</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 6: Other Knowledge -->
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <div class="skill-card__icon">📑</div>
+              <h3 class="skill-card__title">Other Knowledge</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-tag__name">SAP Basics</span>
+                <span class="skill-tag__level level--basics">Introductory</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">ERP Fundamentals</span>
+                <span class="skill-tag__level level--basics">Enterprise Systems</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">ABAP Basics</span>
+                <span class="skill-tag__level level--basics">Syntax Fundamentals</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">HANA Basics</span>
+                <span class="skill-tag__level level--basics">In-Memory Database</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">Fiori</span>
+                <span class="skill-tag__level level--basics">UI Design Patterns</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-tag__name">Data Dictionary</span>
+                <span class="skill-tag__level level--basics">Metadata Concepts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING SECTION -->
+    <section class="training section" id="training">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Professional Development</span>
+          <h2 class="section__title">Software Development Training</h2>
+          <div class="section__divider"></div>
+        </div>
+
+        <div class="training__wrapper">
+          <div class="training-card">
+            <div class="training-card__top">
+              <div class="training-card__title-group">
+                <span class="training-card__type">Full Stack Development Program</span>
+                <h3 class="training-card__name">Software Development / Full Stack Training</h3>
+                <h4 class="training-card__org">KodNest Technologies Pvt Ltd – Bangalore</h4>
+              </div>
+              <div class="training-card__duration">
+                <span class="duration-badge">Jun 2025 – Feb 2026</span>
+              </div>
+            </div>
+
+            <div class="training-card__body">
+              <p class="training-card__note">
+                <em>* Note: This was structured, intensive hands-on technical course learning and project-based training focused on practical software development concepts, not employment.</em>
+              </p>
+
+              <div class="training-card__coverage">
+                <h4 class="training-card__subhead">Curriculum &amp; Hands-on Learning Areas</h4>
+                <div class="curriculum-tags">
+                  <span class="c-tag">Java</span>
+                  <span class="c-tag">SQL</span>
+                  <span class="c-tag">Frontend Technologies</span>
+                  <span class="c-tag">Full Stack Development</span>
+                  <span class="c-tag">Industry-Oriented Practices</span>
+                  <span class="c-tag">Project-Based Learning</span>
+                  <span class="c-tag">JDBC</span>
+                  <span class="c-tag">Servlets</span>
+                  <span class="c-tag">CRUD Operations</span>
+                </div>
+              </div>
+
+              <div class="training-card__takeaways">
+                <h4 class="training-card__subhead">What I Learned</h4>
+                <div class="takeaways-grid">
+                  <div class="takeaway-item"><span class="check-icon">✓</span> Core Java &amp; Object-Oriented Programming (OOP)</div>
+                  <div class="takeaway-item"><span class="check-icon">✓</span> SQL querying, relational schema design &amp; constraints</div>
+                  <div class="takeaway-item"><span class="check-icon">✓</span> Web development fundamentals with HTML, CSS &amp; JavaScript</div>
+                  <div class="takeaway-item"><span class="check-icon">✓</span> JDBC architecture for database connectivity</div>
+                  <div class="takeaway-item"><span class="check-icon">✓</span> Servlets for request/response handling &amp; session tracking</div>
+                  <div class="takeaway-item"><span class="check-icon">✓</span> End-to-end CRUD application development</div>
+                  <div class="takeaway-item"><span class="check-icon">✓</span> Industry coding conventions, debugging and problem solving</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERNSHIPS SECTION -->
+    <section class="internships section" id="internships">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Practical Exposure</span>
+          <h2 class="section__title">Internships</h2>
+          <div class="section__divider"></div>
+        </div>
+
+        <div class="internships__grid">
+          <!-- Internship 1 -->
+          <div class="internship-card">
+            <div class="internship-card__header">
+              <span class="internship-card__badge">Training Internship</span>
+              <span class="internship-card__duration">Jun 2025 – Feb 2026</span>
+            </div>
+            <h3 class="internship-card__role">Software Development Training</h3>
+            <h4 class="internship-card__company">KodNest Technologies Pvt Ltd</h4>
+            <p class="internship-card__desc">
+              "Trained at KodNest, where I acquired practical skills in Java, SQL, and frontend technologies, contributing to real-world projects and learning directly from industry professionals."
+            </p>
+            <div class="internship-card__tags">
+              <span class="i-pill">Java</span>
+              <span class="i-pill">SQL</span>
+              <span class="i-pill">Frontend</span>
+              <span class="i-pill">Full Stack</span>
+            </div>
+          </div>
+
+          <!-- Internship 2 -->
+          <div class="internship-card">
+            <div class="internship-card__header">
+              <span class="internship-card__badge">Cloud &amp; DevOps</span>
+              <span class="internship-card__duration">Jan 2025 – Mar 2025</span>
+            </div>
+            <h3 class="internship-card__role">DevOps &amp; Cloud Implementation Intern</h3>
+            <h4 class="internship-card__company">DataValley</h4>
+            <p class="internship-card__desc">
+              "In my Cloud and DevOps Engineering internship program, I gained hands-on experience with AWS services, automation tools, CI/CD pipelines, containerization, IaC, and monitoring solutions."
+            </p>
+            <div class="internship-card__tags">
+              <span class="i-pill">AWS</span>
+              <span class="i-pill">CI/CD</span>
+              <span class="i-pill">Containerization</span>
+              <span class="i-pill">IaC</span>
+            </div>
+          </div>
+
+          <!-- Internship 3 -->
+          <div class="internship-card">
+            <div class="internship-card__header">
+              <span class="internship-card__badge">Python &amp; Django</span>
+              <span class="internship-card__duration">Nov 2024 – Apr 2025</span>
+            </div>
+            <h3 class="internship-card__role">Python Full Stack Intern</h3>
+            <h4 class="internship-card__company">ExcelR</h4>
+            <p class="internship-card__desc">
+              "Developed a secure, user-friendly, and scalable online shopping platform using Django, focusing on smooth user experience and strong backend features."
+            </p>
+            <div class="internship-card__tags">
+              <span class="i-pill">Python</span>
+              <span class="i-pill">Django</span>
+              <span class="i-pill">Full Stack</span>
+              <span class="i-pill">Backend</span>
+            </div>
+          </div>
+
+          <!-- Internship 4 -->
+          <div class="internship-card">
+            <div class="internship-card__header">
+              <span class="internship-card__badge">Smart Devices</span>
+              <span class="internship-card__duration">Nov 2024 – Apr 2025</span>
+            </div>
+            <h3 class="internship-card__role">Internet Of Things Intern</h3>
+            <h4 class="internship-card__company">ExcelR</h4>
+            <p class="internship-card__desc">
+              "The Internet of Things (IoT) connects everyday smart devices through advanced network technologies, enabling intelligent and seamless communication between objects and people."
+            </p>
+            <div class="internship-card__tags">
+              <span class="i-pill">IoT</span>
+              <span class="i-pill">Networking</span>
+              <span class="i-pill">Smart Devices</span>
+            </div>
+          </div>
+
+          <!-- Internship 5 -->
+          <div class="internship-card">
+            <div class="internship-card__header">
+              <span class="internship-card__badge">Core Java</span>
+              <span class="internship-card__duration">May 2024 – Jul 2024</span>
+            </div>
+            <h3 class="internship-card__role">Java Programming Intern</h3>
+            <h4 class="internship-card__company">ExcelR</h4>
+            <p class="internship-card__desc">
+              "Gained practical experience in Java programming and developed an understanding of programming concepts and techniques."
+            </p>
+            <div class="internship-card__tags">
+              <span class="i-pill">Core Java</span>
+              <span class="i-pill">OOP</span>
+              <span class="i-pill">Logic Building</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Practical Applications</span>
+          <h2 class="section__title">Projects</h2>
+          <div class="section__divider"></div>
+        </div>
+
+        <div class="projects__grid">
+          <!-- Project 1 -->
+          <article class="project-card" id="project-card-1">
+            <div class="project-card__top">
+              <div class="project-card__badge-group">
+                <span class="p-category">Machine Learning &amp; Web</span>
+                <span class="p-academic">Academic Project</span>
+              </div>
+              <h3 class="project-card__title">Predictive Drug Recommendation System using Machine Learning for Enhanced Medication</h3>
+            </div>
+
+            <p class="project-card__overview">
+              A healthcare-focused machine learning project that uses patient-related data to predict diseases and provide relevant medicine recommendations and supporting health information.
+            </p>
+
+            <div class="project-card__section">
+              <h4 class="project-card__label">Technologies</h4>
+              <div class="tech-pills">
+                <span class="pill">Python</span>
+                <span class="pill">Machine Learning</span>
+                <span class="pill">XGBoost</span>
+                <span class="pill">Neural Networks</span>
+                <span class="pill">Django</span>
+                <span class="pill">MySQL / SQLite</span>
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+                <span class="pill">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="project-card__section">
+              <h4 class="project-card__label">My Contribution</h4>
+              <ul class="project-card__bullet-list">
+                <li>Data preprocessing and dataset cleaning</li>
+                <li>Model training and evaluation using XGBoost and Neural Networks</li>
+                <li>Django web backend integration</li>
+                <li>Comprehensive system testing</li>
+              </ul>
+            </div>
+
+            <div class="project-card__section">
+              <h4 class="project-card__label">Project Functionality</h4>
+              <div class="feature-badges">
+                <span class="f-badge">Disease prediction</span>
+                <span class="f-badge">Medicine recommendations</span>
+                <span class="f-badge">Disease descriptions</span>
+                <span class="f-badge">Precautions</span>
+                <span class="f-badge">Diet suggestions</span>
+                <span class="f-badge">Workout suggestions</span>
+              </div>
+            </div>
+
+            <div class="project-card__actions">
+              <div class="project-card__btn-row">
+                <button class="btn btn--outline btn--sm project-detail-btn" data-project="1">View Details</button>
+                <a href="https://github.com/VAGALLA-GREESHMITHA/Predictive_Drug_Recommendation_System_Project" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  View Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" id="project-card-2">
+            <div class="project-card__top">
+              <div class="project-card__badge-group">
+                <span class="p-category">Java &amp; Servlets</span>
+                <span class="p-academic">Technical Project</span>
+              </div>
+              <h3 class="project-card__title">Student Academic Profile Management System</h3>
+            </div>
+
+            <p class="project-card__overview">
+              A web-based application for managing student registration, authentication, and academic profile information with relational database storage.
+            </p>
+
+            <div class="project-card__section">
+              <h4 class="project-card__label">Technologies</h4>
+              <div class="tech-pills">
+                <span class="pill">Java</span>
+                <span class="pill">Java Servlets</span>
+                <span class="pill">JDBC</span>
+                <span class="pill">MySQL</span>
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+                <span class="pill">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="project-card__section">
+              <h4 class="project-card__label">Features</h4>
+              <ul class="project-card__bullet-list">
+                <li>Student registration &amp; profile setup</li>
+                <li>Login and Logout operations</li>
+                <li>HTTP Session authentication</li>
+                <li>Form validation on client and server</li>
+                <li>Student profile management &amp; updates</li>
+                <li>Relational database storage using MySQL</li>
+              </ul>
+            </div>
+
+            <div class="project-card__section">
+              <h4 class="project-card__label">Core Functionality</h4>
+              <div class="feature-badges">
+                <span class="f-badge">Registration</span>
+                <span class="f-badge">Login / Logout</span>
+                <span class="f-badge">Session Auth</span>
+                <span class="f-badge">Form Validation</span>
+                <span class="f-badge">Profile Management</span>
+                <span class="f-badge">Database Storage</span>
+              </div>
+            </div>
+
+            <div class="project-card__actions">
+              <div class="project-card__btn-row">
+                <button class="btn btn--outline btn--sm project-detail-btn" data-project="2">View Details</button>
+                <a href="https://github.com/VAGALLA-GREESHMITHA/Student-Academic-Profile-Management-System" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  View Code
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="education section" id="education">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Academic Background</span>
+          <h2 class="section__title">Education Journey</h2>
+          <div class="section__divider"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Step 1: B.Tech -->
+          <div class="timeline__item">
+            <div class="timeline__marker">
+              <div class="timeline__dot"></div>
+            </div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <span class="timeline__year">2021 – 2025</span>
+                <span class="timeline__badge score-badge">9.3 CGPA</span>
+              </div>
+              <h3 class="timeline__title">B.Tech – Computer Science &amp; Engineering</h3>
+              <h4 class="timeline__institution">Annamacharya Institute of Technology &amp; Sciences (Autonomous)</h4>
+              <p class="timeline__location">📍 Tirupati, Andhra Pradesh</p>
+              <p class="timeline__desc">
+                Comprehensive coursework in Computer Science fundamentals, Object-Oriented Programming, Data Structures, Algorithms, Operating Systems, Database Management Systems, and Web Engineering.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2: Intermediate -->
+          <div class="timeline__item">
+            <div class="timeline__marker">
+              <div class="timeline__dot"></div>
+            </div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <span class="timeline__year">2019 – 2021</span>
+                <span class="timeline__badge score-badge">96.5%</span>
+              </div>
+              <h3 class="timeline__title">Intermediate – MPC (Mathematics, Physics, Chemistry)</h3>
+              <h4 class="timeline__institution">Sri Chaitanya Junior College</h4>
+              <p class="timeline__location">📍 Tirupati, Andhra Pradesh</p>
+              <p class="timeline__desc">
+                Strong focus on core sciences, mathematics, analytical problem solving, and logical aptitude.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3: School -->
+          <div class="timeline__item">
+            <div class="timeline__marker">
+              <div class="timeline__dot"></div>
+            </div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <span class="timeline__year">2018 – 2019</span>
+                <span class="timeline__badge score-badge">9.8 CGPA</span>
+              </div>
+              <h3 class="timeline__title">SSC / Secondary School</h3>
+              <h4 class="timeline__institution">Santhinikethan (EM) High School</h4>
+              <p class="timeline__location">📍 Kalikiri, Andhra Pradesh</p>
+              <p class="timeline__desc">
+                Graduated secondary schooling with high distinction across standard sciences and mathematics.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="certifications section" id="certifications">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Professional Credentials</span>
+          <h2 class="section__title">Certifications</h2>
+          <div class="section__divider"></div>
+        </div>
+
+        <div class="certifications__grid">
+          <!-- Cert 1 -->
+          <div class="cert-card">
+            <div class="cert-card__icon">☕</div>
+            <div class="cert-card__content">
+              <span class="cert-card__issuer">KodNest Technologies</span>
+              <span class="cert-card__date">Jun 2025 – Feb 2026</span>
+              <h3 class="cert-card__title">Full Stack Development Certification</h3>
+              <p class="cert-card__desc">Comprehensive training in Java, SQL, JDBC, Servlets, and Frontend Web technologies.</p>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card">
+            <div class="cert-card__icon">☁️</div>
+            <div class="cert-card__content">
+              <span class="cert-card__issuer">Google Cloud</span>
+              <span class="cert-card__date">Jan 2024</span>
+              <h3 class="cert-card__title">Google Cloud Computing Foundations</h3>
+              <p class="cert-card__desc">Covered: Kubernetes, deployment, scaling, and foundational cloud infrastructure concepts.</p>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card">
+            <div class="cert-card__icon">🚀</div>
+            <div class="cert-card__content">
+              <span class="cert-card__issuer">edX</span>
+              <span class="cert-card__date">Mar 2024</span>
+              <h3 class="cert-card__title">Cloud Deployment</h3>
+              <p class="cert-card__desc">Fundamentals of application deployment, cloud service models, and automated provisioning.</p>
+            </div>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card">
+            <div class="cert-card__icon">📦</div>
+            <div class="cert-card__content">
+              <span class="cert-card__issuer">edX</span>
+              <h3 class="cert-card__title">Migrating to AWS Cloud Certification</h3>
+              <p class="cert-card__desc">Strategies and best practices for migrating on-premises applications and workloads to AWS Cloud.</p>
+            </div>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card">
+            <div class="cert-card__icon">🤖</div>
+            <div class="cert-card__content">
+              <span class="cert-card__issuer">Microsoft</span>
+              <h3 class="cert-card__title">AI-900: Microsoft Azure AI Fundamentals</h3>
+              <p class="cert-card__desc">Foundational knowledge of machine learning, computer vision, natural language processing, and conversational AI in Azure.</p>
+            </div>
+          </div>
+
+          <!-- Cert 6 -->
+          <div class="cert-card">
+            <div class="cert-card__icon">💻</div>
+            <div class="cert-card__content">
+              <span class="cert-card__issuer">Cognifyz Technologies</span>
+              <h3 class="cert-card__title">Certification on Java Development</h3>
+              <p class="cert-card__desc">Hands-on application development evaluating Java core logic, OOP structures, and backend programming.</p>
+            </div>
+          </div>
+
+          <!-- Cert 7 -->
+          <div class="cert-card">
+            <div class="cert-card__icon">📊</div>
+            <div class="cert-card__content">
+              <span class="cert-card__issuer">Deloitte Australia</span>
+              <h3 class="cert-card__title">Data Analytics Job Simulation</h3>
+              <p class="cert-card__desc">Practical virtual experience examining business datasets, deriving insights, and preparing technical presentations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section class="resume section" id="resume">
+      <div class="container">
+        <div class="resume__box">
+          <div class="resume__content">
+            <span class="resume__eyebrow">Curriculum Vitae</span>
+            <h2 class="resume__heading">Want to know more about my journey?</h2>
+            <p class="resume__desc">
+              View my resume for a detailed overview of my education, technical skills, training, projects and certifications.
+            </p>
+            
+            <div class="resume__actions">
+              <a href="assets/Greeshmitha_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                View Resume
+              </a>
+              <a href="assets/Greeshmitha_Resume.pdf" download="Greeshmitha_Vagalla_Resume.pdf" class="btn btn--secondary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Download Resume
+              </a>
+            </div>
+          </div>
+          
+          <div class="resume__preview-card">
+            <div class="resume__mock-doc">
+              <div class="doc-line doc-header"></div>
+              <div class="doc-line doc-title"></div>
+              <div class="doc-line doc-text"></div>
+              <div class="doc-line doc-text w-80"></div>
+              <div class="doc-line doc-text w-60"></div>
+              <div class="doc-badge">PDF Document</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Get In Touch</span>
+          <h2 class="section__title">Contact Me</h2>
+          <div class="section__divider"></div>
+        </div>
+
+        <div class="contact__grid">
+          <!-- Contact Info Column -->
+          <div class="contact__info">
+            <h3 class="contact__subtitle">Let's Connect</h3>
+            <p class="contact__intro">
+              I am actively seeking entry-level software opportunities and would welcome the chance to discuss how my foundation in Java and Full Stack development can contribute to your team.
+            </p>
+
+            <div class="contact__relocate-card">
+              <span class="relocate-label">✈️ Open to Relocate:</span>
+              <strong class="relocate-cities">Bengaluru, Hyderabad, Chennai, Pune</strong>
+            </div>
+
+            <div class="contact__items">
+              <!-- Primary Email -->
+              <div class="contact__item">
+                <div class="contact__item-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <span class="contact__label">Primary Email</span>
+                  <a href="mailto:greeshmithareddyvagalla@gmail.com" class="contact__value contact__link">greeshmithareddyvagalla@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- Secondary Email -->
+              <div class="contact__item">
+                <div class="contact__item-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <span class="contact__label">Secondary Email</span>
+                  <a href="mailto:greeshmithaicn162tnpl@gmail.com" class="contact__value contact__link">greeshmithaicn162tnpl@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact__item">
+                <div class="contact__item-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </div>
+                <div>
+                  <span class="contact__label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/vagalla-greeshmitha-90533428b" target="_blank" rel="noopener noreferrer" class="contact__value contact__link">linkedin.com/in/vagalla-greeshmitha-90533428b</a>
+                </div>
+              </div>
+
+              <!-- GitHub -->
+              <div class="contact__item">
+                <div class="contact__item-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </div>
+                <div>
+                  <span class="contact__label">GitHub</span>
+                  <a href="https://github.com/VAGALLA-GREESHMITHA" target="_blank" rel="noopener noreferrer" class="contact__value contact__link">github.com/VAGALLA-GREESHMITHA</a>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact__item">
+                <div class="contact__item-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <span class="contact__label">Current Location</span>
+                  <span class="contact__value">Bengaluru, Karnataka, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact__form-wrapper">
+            <form id="contact-form" class="contact__form">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email</label>
+                <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. johndoe@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="e.g. Entry-level Java Developer Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" name="message" rows="5" class="form-input form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full" id="contact-submit-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                Send Message
+              </button>
+
+              <p class="form-note">
+                <small>* Submitting launches your default email client to send directly to <strong>greeshmithareddyvagalla@gmail.com</strong>.</small>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Details Modal -->
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal__overlay" id="modal-overlay"></div>
+    <div class="modal__content">
+      <button class="modal__close" id="modal-close" aria-label="Close modal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div id="modal-body">
+        <!-- Content injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#home" class="footer__logo">GV</a>
+        <h3 class="footer__name">Greeshmitha Vagalla</h3>
+        <p class="footer__role">Java &amp; Full Stack Developer | 2025 B.Tech CSE Graduate</p>
+        <p class="footer__location">📍 Bengaluru, Karnataka, India</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="https://github.com/VAGALLA-GREESHMITHA" target="_blank" rel="noopener noreferrer" class="footer__link">GitHub</a>
+        <span class="footer__sep">|</span>
+        <a href="https://www.linkedin.com/in/vagalla-greeshmitha-90533428b" target="_blank" rel="noopener noreferrer" class="footer__link">LinkedIn</a>
+        <span class="footer__sep">|</span>
+        <a href="mailto:greeshmithareddyvagalla@gmail.com" class="footer__link">Email</a>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 Greeshmitha Vagalla. All rights reserved.</p>
+        <p class="footer__disclaimer">Clean semantic HTML5, Vanilla CSS &amp; JavaScript with Light / Dark Theme Support.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <a href="#home" class="scroll-top" id="scroll-top" aria-label="Back to Top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
